@@ -38,7 +38,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'pikaptcha = pikaptcha.console:entry',
+            'pikaptcha2 = pikaptcha.console:entry',
         ],
     }
 )
