@@ -16,7 +16,7 @@ with open(os.path.join(setup_dir, 'README.md'), encoding='utf-8') as readme:
 
 setup(
     name=DIST_NAME,
-    packages=['pikaptcha2'],
+    packages=['pikaptcha'],
     version=VERSION,
     description='Pokemon Go Bulk Account Creator.',
     author=AUTHOR,
@@ -38,7 +38,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'pikaptcha2 = pikaptcha.console:entry',
+            'pikaptcha2 = pikaptcha2.console:entry',
         ],
     }
 )
